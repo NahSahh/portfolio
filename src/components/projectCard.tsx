@@ -21,7 +21,7 @@ const Project = ({
 }: ProjectProps) => (
   <>
     <div
-      className={`bg-gray-300 hover:bg-gray-400 dark:bg-slate-700 dark:hover:bg-slate-600 duration-300 p-3 rounded-[2px] md:max-w-md ${className} select-none`}
+      className={`bg-gray-300 hover:bg-gray-400 dark:bg-slate-700 dark:hover:bg-slate-600 duration-300 p-3 rounded-[2px] ${className} select-none`}
     >
       <div className="flex justify-between items-center">
         <p className="text-lg font-semibold dark:text-gray-300 text-neutral-700">

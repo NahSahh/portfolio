@@ -6,8 +6,12 @@ export default function home() {
   return (
     <>
       <Head>
-        <title>NahSahh - Cocker</title>
-        <meta name="description" content="Cocker - Cool" />
+        <title>NahSahh</title>
+        <meta name="title" content="NahSahh's Portfolio site" />
+        <meta
+          name="description"
+          content="NahSahh's site, you should use Kythi.com btw."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
@@ -62,37 +66,39 @@ export default function home() {
                 listed below.
               </div>
             </div>
-            <div className="grid md:grid-cols-2 gap-2 mt-4">
-              <Card
-                title="Kythi"
-                role="Founder"
-                gradient="dark:from-blue-300 dark:to-pink-900 from-emerald-400 to-emerald-900"
-                color="dark:text-blue-300 dark:hover:text-blue-400 text-red-500 hover:text-red-600"
-                purpose="Public File-Uploader."
-                paragraph="Kythi is a public free-to-use file-uploader that allows you to
+            <div className="max-w-4xl">
+              <div className="grid md:grid-cols-2 gap-2 mt-4">
+                <Card
+                  title="Kythi"
+                  role="Founder"
+                  gradient="dark:from-blue-300 dark:to-pink-900 from-emerald-400 to-emerald-900"
+                  color="dark:text-blue-300 dark:hover:text-blue-400 text-red-500 hover:text-red-600"
+                  purpose="Public File-Uploader."
+                  paragraph="Kythi is a public free-to-use file-uploader that allows you to
                 upload images and share them with anyone, along with customized
                 embeds to make them look like you want."
-              />
+                />
 
-              <Card
-                title="Kraken"
-                role="Developer"
-                gradient="dark:from-blue-400 dark:to-blue-900 from-indigo-400 to-violet-900"
-                color="dark:text-indigo-300 dark:hover:text-indigo-400 text-blue-500 hover:text-blue-600"
-                purpose="File Uploader."
-                paragraph="Kraken is a public file-uploader, used to store files and customise embeds, with the choice of custom domains, allowing you to personalise your images your way."
-              />
-            </div>
-            <div className="mt-2">
-              <Card
-                title="E-Z.host"
-                role="Developer"
-                gradient="dark:from-red-400 dark:to-red-900 from-blue-400 to-red-600"
-                color="dark:text-red-300 dark:hover:text-red-400 text-emerald-500 hover:text-emerald-600"
-                purpose="Private File Uploader."
-                paragraph="E-Z.host is a closed-private file-uploader, used to store uploads and customise embeds, it has a plethora of features to choose from allowing you to personalise your files, you can purchase it on their website."
-                className="md:max-w-[905px]"
-              />{" "}
+                <Card
+                  title="Kraken"
+                  role="Developer"
+                  gradient="dark:from-blue-400 dark:to-blue-900 from-indigo-400 to-violet-900"
+                  color="dark:text-indigo-300 dark:hover:text-indigo-400 text-blue-500 hover:text-blue-600"
+                  purpose="File Uploader."
+                  paragraph="Kraken is a public file-uploader, used to store files and customise embeds, with the choice of custom domains, allowing you to personalise your images your way."
+                />
+              </div>
+              <div className="mt-2">
+                <Card
+                  title="E-Z.host"
+                  role="Developer"
+                  gradient="dark:from-red-400 dark:to-red-900 from-blue-400 to-red-600"
+                  color="dark:text-red-300 dark:hover:text-red-400 text-emerald-500 hover:text-emerald-600"
+                  purpose="Private File Uploader."
+                  paragraph="E-Z.host is a closed-private file-uploader, used to store uploads and customise embeds, it has a plethora of features to choose from allowing you to personalise your files, you can purchase it on their website."
+                  className=""
+                />{" "}
+              </div>
             </div>
           </div>
         </div>{" "}
