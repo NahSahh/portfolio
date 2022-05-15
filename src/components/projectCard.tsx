@@ -1,6 +1,7 @@
 import React from "react";
 
 type ProjectProps = {
+  link?: string;
   role?: string;
   color?: string;
   title?: string;
@@ -11,6 +12,7 @@ type ProjectProps = {
 };
 
 const Project = ({
+  link,
   role,
   title,
   color,
@@ -25,7 +27,10 @@ const Project = ({
     >
       <div className="flex justify-between items-center">
         <p className="text-lg font-semibold dark:text-gray-300 text-neutral-700">
-          <span className={`${color} transition-colors cursor-pointer`}>
+          <span
+            onClick={() => open(link)}
+            className={`${color} transition-colors cursor-pointer`}
+          >
             {title}
           </span>{" "}
           - {purpose}

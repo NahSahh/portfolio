@@ -71,6 +71,7 @@ export default function home() {
                 <Card
                   title="Kythi"
                   role="Founder"
+                  link="https://discord.gg/Fa7t67NEMU"
                   gradient="dark:from-blue-300 dark:to-pink-900 from-emerald-400 to-emerald-900"
                   color="dark:text-blue-300 dark:hover:text-blue-400 text-red-500 hover:text-red-600"
                   purpose="Public File-Uploader."
@@ -82,6 +83,7 @@ export default function home() {
                 <Card
                   title="Kraken"
                   role="Developer"
+                  link="https://kraken.pics"
                   gradient="dark:from-blue-400 dark:to-blue-900 from-indigo-400 to-violet-900"
                   color="dark:text-indigo-300 dark:hover:text-indigo-400 text-blue-500 hover:text-blue-600"
                   purpose="File Uploader."
@@ -92,6 +94,7 @@ export default function home() {
                 <Card
                   title="E-Z.host"
                   role="Developer"
+                  link="https://e-z.host/"
                   gradient="dark:from-red-400 dark:to-red-900 from-blue-400 to-red-600"
                   color="dark:text-red-300 dark:hover:text-red-400 text-emerald-500 hover:text-emerald-600"
                   purpose="Private File Uploader."
