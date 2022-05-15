@@ -3,10 +3,8 @@ import React from "react";
 type ProjectProps = {
   link?: string;
   role?: string;
-  color?: string;
   title?: string;
   purpose?: string;
-  gradient?: string;
   paragraph?: string;
   className?: string;
 };
@@ -15,9 +13,7 @@ const Project = ({
   link,
   role,
   title,
-  color,
   purpose,
-  gradient,
   paragraph,
   className,
 }: ProjectProps) => (
@@ -29,17 +25,17 @@ const Project = ({
         <p className="text-lg font-semibold dark:text-gray-300 text-neutral-700">
           <span
             onClick={() => open(link)}
-            className={`${color} transition-colors cursor-pointer`}
+            className={`dark:text-blue-300 dark:hover:text-blue-400 transition-colors cursor-pointer`}
           >
             {title}
           </span>{" "}
-          - {purpose}
+          <span className="mr-2">- {purpose}</span>
         </p>
-        <span
-          className={`font-semibold text-lg text-transparent bg-clip-text bg-gradient-to-tr ${gradient}`}
+        <div
+          className={`bg-gradient-to-br from-slate-900 to-blue-800 p-1 h-7 text-sm text-violet-200 font-bold px-3 rounded`}
         >
           {role}
-        </span>
+        </div>
       </div>
       <p className="dark:text-gray-200 text-gray-700 mt-2">{paragraph}</p>
     </div>
