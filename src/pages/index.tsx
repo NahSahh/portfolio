@@ -25,8 +25,8 @@ export default function home() {
       <div className="bootstrapcss.modal lol flex items-center justify-center mt-24 flex-col px-12 scroll-smooth">
         <div className="max-w-7xl flex flex-col w-full mt-12">
           <Hero />
+          <Project />
         </div>
-        <Project />
         <div className="flex ml-auto mt-12 text-lg items-center pb-4">
           This site is
           <label

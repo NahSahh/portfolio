@@ -32,7 +32,7 @@ const Project = ({
           <span className="mr-2">- {purpose}</span>
         </p>
         <div
-          className={`bg-gradient-to-br from-slate-900 to-blue-800 p-1 h-7 text-sm text-violet-200 font-bold px-3 rounded`}
+          className={`bg-gradient-to-br shadow-xl shadow-slate-800 from-slate-900 to-blue-800 p-1 h-7 text-sm text-violet-200 font-bold px-3 rounded`}
         >
           {role}
         </div>
