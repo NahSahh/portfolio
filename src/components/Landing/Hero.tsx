@@ -5,7 +5,7 @@ export default function Hero() {
         {" "}
         <img
           alt=""
-          src={`/${process.env.userName}.png`}
+          src={`/NahSahh.png`}
           className="rounded-xl hover:shadow-[#19418c] hover:-translate-y-1  shadow-lg duration-300"
         />
       </div>
