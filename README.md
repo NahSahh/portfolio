@@ -1,5 +1,3 @@
-Edit next.config.js & other files
+Go to next.config.js and edit the env variables
 
-then
-
-yarn run install && yarn run start
+Then yarn install && yarn build && yarn start
