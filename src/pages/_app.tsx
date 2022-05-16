@@ -16,8 +16,8 @@ const Loader = () => {
           name="description"
           content={`${process.env.userName}'s site, you should use Kythi.com btw.`}
         />
-        <meta name="og:image" content="unknown.png" />{" "}
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:image" content="nahsahh.png" />{" "}
       </Head>
       <div className="flex h-screen justify-center">
         <div className="m-auto flex flex-col items-center">
