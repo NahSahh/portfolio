@@ -23,8 +23,8 @@ export function Portfolio({ Component, pageProps }: AppProps) {
   });
   return (
     <>
-      <div className="min-h-screen dark:bg-slate-900 dark:text-white">
-        {loading ? <Loader /> : <Component {...pageProps} />}
+      <div className={`min-h-screen dark:bg-slate-900 dark:text-white`}>
+        {loading ? <Loader /> : <Component {...pageProps} />}{" "}
       </div>
     </>
   );

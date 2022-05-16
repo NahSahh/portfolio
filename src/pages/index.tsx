@@ -27,9 +27,9 @@ export default function home() {
           <Hero />
           <Project />
         </div>
-        <div className="flex ml-auto mt-12 text-lg items-center pb-4">
+        <div className="flex ml-auto mt-12 sm:text-lg text-sm items-center pb-4">
           This site is
-          <label
+          <span
             onClick={() => open("https://github.com/NahSahh/portfolio")}
             className="flex items-center cursor-pointer hover:text-blue-400 duration-300 text-red-300"
           >
@@ -50,7 +50,7 @@ export default function home() {
               {" "}
               open source!
             </span>
-          </label>
+          </span>
           on my github.
         </div>
       </div>
