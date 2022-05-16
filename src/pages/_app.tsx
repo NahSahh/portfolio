@@ -1,16 +1,32 @@
+import Head from "next/head";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { useEffect, useState } from "react";
 
 const Loader = () => {
   return (
-    <div className="flex h-screen justify-center">
-      <div className="m-auto flex flex-col items-center">
-        <span className="mt-2 animate-pulse text-lg text-gray-300 font-semibold">
-          Loading
-        </span>
+    <>
+      <Head>
+        <title>{process.env.userName}</title>
+        <meta
+          name="title"
+          content={`${process.env.userName}'s Portfolio site`}
+        />
+        <meta
+          name="description"
+          content={`${process.env.userName}'s site, you should use Kythi.com btw.`}
+        />
+        <meta name="og:image" content="unknown.png" />{" "}
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="flex h-screen justify-center">
+        <div className="m-auto flex flex-col items-center">
+          <span className="mt-2 animate-pulse text-lg text-gray-300 font-semibold">
+            Loading
+          </span>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -23,7 +39,7 @@ export function Portfolio({ Component, pageProps }: AppProps) {
   });
   return (
     <>
-      <div className={`min-h-screen dark:bg-slate-900 dark:text-white`}>
+      <div className={`min-h-screen dark:bg-gray-900 dark:text-white`}>
         {loading ? <Loader /> : <Component {...pageProps} />}{" "}
       </div>
     </>

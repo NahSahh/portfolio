@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { useEffect } from "react";
 import Hero from "../components/Landing/Hero";
 import Navbar from "../components/Landing/Navbar";
@@ -9,21 +8,9 @@ export default function home() {
 
   return (
     <>
-      <Head>
-        <title>{process.env.userName}</title>
-        <meta
-          name="title"
-          content={`${process.env.userName}'s Portfolio site`}
-        />
-        <meta
-          name="description"
-          content={`${process.env.userName}'s site, you should use Kythi.com btw.`}
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Navbar />
-      <div className="bootstrapcss.modal lol flex items-center justify-center mt-24 flex-col px-12 scroll-smooth">
-        <div className="max-w-7xl flex flex-col w-full mt-12">
+      <div className="bootstrapcss.modal lol flex items-center justify-center flex-col px-12 scroll-smooth">
+        <div className="max-w-7xl flex flex-col w-full mt-48">
           <Hero />
           <Project />
         </div>
