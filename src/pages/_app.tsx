@@ -42,9 +42,9 @@ export function Portfolio({ Component, pageProps }: AppProps) {
             process.env.userName + "'s site, you should use Kythi.com btw.",
           images: [
             {
-              url: "/nahsahh.png",
-              width: 600,
-              height: 600,
+              url: "/unknown.png",
+              width: 800,
+              height: 800,
               alt:
                 process.env.userName + "'s site, you should use Kythi.com btw.",
             },
