@@ -1,6 +1,16 @@
 module.exports = {
   env: {
+    tooltip1: "Steam",
+    link1: "https://steamcommunity.com/NahSahh/",
+
+    tooltip2: "NahSahh",
+    link2: "https://github.com/nahsahh",
+
+    tooltip3: "NahSahh#6249",
+    link3: "https://discord.com/users/310088719187050507",
+
     userName: "NahSahh",
+
     cards: [
       {
         title: "Kythi",
