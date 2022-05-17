@@ -3,7 +3,7 @@ module.exports = {
     tooltip1: "Steam",
     link1: "https://steamcommunity.com/NahSahh/",
 
-    tooltip2: "NahSahh",
+    tooltip2: "Github",
     link2: "https://github.com/nahsahh",
 
     tooltip3: "NahSahh#6249",
