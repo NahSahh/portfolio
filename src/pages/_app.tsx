@@ -27,19 +27,6 @@ export function Portfolio({ Component, pageProps }: AppProps) {
   });
   return (
     <>
-      <Head>
-        <title>{process.env.userName}</title>
-        <meta
-          name="title"
-          content={`${process.env.userName}'s Portfolio site`}
-        />
-        <meta
-          name="description"
-          content={`${process.env.userName}'s site, you should use Kythi.com btw.`}
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content="nahsahh.png" />{" "}
-      </Head>
       <NextSeo
         title={process.env.userName}
         description={`${process.env.userName}'s site, you should use Kythi.com btw.`}
@@ -55,8 +42,8 @@ export function Portfolio({ Component, pageProps }: AppProps) {
             process.env.userName + "'s site, you should use Kythi.com btw.",
           images: [
             {
-              url: "/nahsahh.png",
-              width: 800,
+              url: "/unknown.png",
+              width: 600,
               height: 600,
               alt:
                 process.env.userName + "'s site, you should use Kythi.com btw.",
