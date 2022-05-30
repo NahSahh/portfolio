@@ -39,12 +39,10 @@ export function Portfolio({ Component, pageProps }: AppProps) {
         openGraph={{
           title: process.env.userName,
           description:
-            process.env.userName + "'s site, you should use Kythi.com btw.",
+            process.env.userName + "'s site, you should use kraken.pics btw.",
           images: [
             {
-              url: "/nahsahh.png",
-              width: 800,
-              height: 600,
+              url: "/unknown.png",
               alt:
                 process.env.userName + "'s site, you should use Kythi.com btw.",
             },
