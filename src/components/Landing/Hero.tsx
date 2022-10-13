@@ -15,7 +15,7 @@ export default function Hero() {
       <div>
         <h1 className="text-2xl font-semibold italic dark:text-gray-200 mt-3 flex gap-1">
           Hey! I&apos;m{" "}
-          <span className="text-violet-400 transform transition-all cursor-cell flex hover:-rotate-6 hover:text-violet-600">
+          <span className="text-violet-400 transform transition-all cursor-cell flex hover:-rotate-6 hover:text-violet-500">
             {process.env.userName}
           </span>
         </h1>
@@ -53,7 +53,7 @@ export default function Hero() {
                 <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.705 1.705 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027Zm2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048Z" />
               </svg>
             }
-            text={`${process.env.tooltip1}`}
+            text={`${process.env.Social1}`}
           />
           <Tooltip
             clicker={() => open(process.env.link2)}

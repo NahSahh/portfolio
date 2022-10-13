@@ -10,6 +10,6 @@ body {
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 0px;
   background: #fff;
 }

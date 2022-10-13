@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "../styles/globals.css";
 import { NextSeo } from "next-seo";
 import type { AppProps } from "next/app";
@@ -49,7 +48,7 @@ export function Portfolio({ Component, pageProps }: AppProps) {
           ],
         }}
       />
-      <div className={`min-h-screen dark:bg-gray-900 dark:text-white`}>
+      <div className={`min-h-screen bg-neutral-900 text-white`}>
         {loading ? <Loader /> : <Component {...pageProps} />}{" "}
       </div>
     </>
