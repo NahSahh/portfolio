@@ -1,12 +1,12 @@
 module.exports = {
   env: {
-    tooltip1: "Steam",
+    Social1: "Steam",
     link1: "https://steamcommunity.com/NahSahh/",
 
-    tooltip2: "Github",
+    Social2: "Github",
     link2: "https://github.com/nahsahh",
 
-    tooltip3: "NahSahh#6249",
+    Social3: "NahSahh#6249",
     link3: "https://discord.com/users/310088719187050507",
 
     userName: "NahSahh",
@@ -19,14 +19,24 @@ module.exports = {
         purpose: "Public File-sharing",
         paragraph:
           "Kythi is a public free-to-use file-uploader that allows you to upload images and share them with anyone, along with customized embeds to make them look like you want.",
+        Project1: "Kythi",
+        Plink1: "https://github.com/Kythix",
+        Project2: "",
+        Plink2: "",
+        Project3: "",
+        Plink3: "",
       },
       {
-        title: "Kraken",
-        link: "https://kraken.pics",
+        title: "Portfolio",
+        link: "https://nahsahh.com",
         role: "Developer",
-        purpose: "Public File Uploader",
+        purpose: "Portfolio Website",
         paragraph:
-          "Kraken is a public file-uploader, used to store files and customise embeds, with the choice of custom domains, allowing you to personalise your images your way.",
+          "This portfolio, built with Next.js, is a website that showcases my projects and allows you to view the best ways to contact me.",
+        Project1: "Kythi",
+        Plink1: "https://github.com/",
+        Project2: "",
+        Plink2: "",
       },
       {
         title: "E-Z.host",
@@ -34,7 +44,10 @@ module.exports = {
         role: "Contributor",
         purpose: "Private File Uploader",
         paragraph:
-          "E-Z.host is a closed-private file-uploader, used to store uploads and customise embeds, it has a plethora of features to choose from allowing you to personalise your files, you can purchase it on their website.",
+          "E-Z.host is a closed-private file-uploader, used to store uploads and customise embeds, it has a plethora of features to choose from allowing you to personalise your files, you can purchase it on their website.",          Project1: "Kythi",
+        Plink1: "https://github.com/",
+        Project2: "",
+        Plink2: "",
       },
     ],
   },
