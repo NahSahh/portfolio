@@ -7,7 +7,7 @@ export default function projectIntro() {
       <div className="flex flex-col ml-auto max-w-md">
         <h1 className="text-3xl font-semibold mt-44 mb-3 dark:text-gray-200 flex gap-2">
           My
-          <span className="text-violet-400 transform transition-all cursor-cell flex hover:text-violet-600">
+          <span className="text-violet-400 transform transition-all cursor-cell flex hover:text-violet-500">
             Projects
           </span>
         </h1>
