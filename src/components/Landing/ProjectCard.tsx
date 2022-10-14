@@ -31,10 +31,10 @@ const Project = ({
       className={`bg-neutral-800/70 hover:bg-neutral-700/60 duration-300 p-3 rounded-[2px] ${className} select-none`}
     >
       <div className="flex justify-between items-center">
-        <p className="text-lg font-semibold dark:text-gray-300 text-neutral-700">
+        <p className="text-lg font-semibold text-gray-300">
           <span
             onClick={() => open(link)}
-            className={`dark:text-blue-300 dark:hover:text-blue-400 transition-colors cursor-pointer`}
+            className={`text-blue-300 hover:text-blue-400 transition-colors cursor-pointer`}
           >
             {title}
           </span>{" "}
@@ -46,7 +46,7 @@ const Project = ({
           {role}
         </div>
       </div>
-      <p className="dark:text-gray-200 pb-1 text-gray-700 mt-2">{paragraph}</p>
+      <p className="text-gray-200 pb-1 mt-2">{paragraph}</p>
       <div className="border-t-2 border-t-zinc-700"></div>
       <div className="mt-2 flex items-center gap-2">
         {" "}
